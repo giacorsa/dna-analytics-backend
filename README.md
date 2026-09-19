@@ -16,7 +16,7 @@ Lightweight backend built with **Node.js + Express**, acting as a **proxy server
 
 ## 🔌 Source API  Data is fetched from:
 
-[Visualizza il file JSON](https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json)
+[View JSON file](https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json)
 
 The backend uses **Axios** to retrieve the data and forwards it to the frontend.
 

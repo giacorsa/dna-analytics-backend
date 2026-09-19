@@ -16,14 +16,16 @@ Lightweight backend built with **Node.js + Express**, acting as a **proxy server
 
 ## 🔌 Source API  Data is fetched from:  
 
-<https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json>
+[Visualizza il file JSON](https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json)
 
 The backend uses **Axios** to retrieve the data and forwards it to the frontend.
 
 ## 📁 Project Structure
 
 ```text
-backend/ │ package.json │ server.js
+backend/  
+   package.json 
+   server.js
 
 
 ### `server.js` Responsibilities
@@ -71,13 +73,10 @@ Example response:
 
 🔧 Technologies Used
 
-Node.js
-
-Express
-
-Axios
-
-CORS
+- Node.js
+- Express
+- Axios
+- CORS
 
 🌐 Frontend Integration
 

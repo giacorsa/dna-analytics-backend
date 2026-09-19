@@ -1,20 +1,20 @@
 # DnA Analytics Backend
 
-```text
-Lightweight backend built with **Node.js + Express**, acting as a **proxy server** for the DnA Analytics Dashboard.  It retrieves analytical data from a public GitHub API and exposes a clean endpoint consumed by the Vue frontend.  This backend is part of the final project for the Star2Impact Full Stack Developer Master Program.  
+````text
+Lightweight backend built with **Node.js + Express**, acting as a **proxy server** for the DnA Analytics Dashboard.  It retrieves analytical data from a public GitHub API and exposes a clean endpoint consumed by the Vue frontend.  This backend is part of the final project for the Star2Impact Full Stack Developer Master Program.
 
----  
+---
 
-## 🚀 Purpose of the Backend  
+## 🚀 Purpose of the Backend
 
-- Fetch analytical data from a public GitHub JSON API.  
-- Expose a local endpoint `/api/metrics` for the Vue frontend.  
-- Prevent CORS issues and simplify data handling.  
-- Provide a stable, controlled data structure to the frontend.  
+- Fetch analytical data from a public GitHub JSON API .
+- Expose a local endpoint `/api/metrics` for the Vue frontend .
+- Prevent CORS issues and simplify data handling.
+- Provide a stable, controlled data structure to the frontend.
 
----  
+---
 
-## 🔌 Source API  Data is fetched from:  
+## 🔌 Source API  Data is fetched from:
 
 [Visualizza il file JSON](https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json)
 
@@ -23,8 +23,8 @@ The backend uses **Axios** to retrieve the data and forwards it to the frontend.
 ## 📁 Project Structure
 
 ```text
-backend/  
-   package.json 
+backend/
+   package.json
    server.js
 
 
@@ -102,3 +102,4 @@ Gianni — Full Stack Developer (Star2Impact)
 
 MIT License
 
+````
